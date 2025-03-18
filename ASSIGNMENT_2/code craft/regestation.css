@@ -1,0 +1,155 @@
+/* Reset and global styles */
+body, h1, ul, li, a, input, button {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+body {
+    background-image:url(back.jpeg);
+}
+
+/* Navigation Bar */
+.navbar {
+    background-color: #1a2ec4;
+    color: white;
+    padding: 15px 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo {
+    font-size: 24px;
+    font-weight: bold;
+    font-family: "Georgia", serif;
+}
+
+.nav-links {
+    list-style: none;
+    display: flex;
+}
+
+.nav-links li {
+    margin: 0 15px;
+}
+
+.nav-links a {
+    text-decoration: none;
+    color: white;
+    font-size: 16px;
+}
+
+.nav-links a:hover {
+    text-decoration: underline;
+}
+
+/* Registration Container */
+.register-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 80vh;
+    padding: 20px;
+}
+
+/* Registration Box */
+.register-box {
+    background-color: rgba(0, 0, 0, 0.8);
+    padding: 30px;
+    border-radius: 10px;
+    color: white;
+    width: 600px;
+    text-align: center;
+}
+
+/* User Avatar */
+.avatar {
+    text-align: center;
+    margin-bottom: 15px;
+}
+
+.avatar img {
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+}
+
+/* Form Layout */
+.form-group {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 15px;
+}
+
+.input-box {
+    width: 48%;
+}
+
+/* Input Fields */
+input {
+    width: 100%;
+    padding: 10px;
+    margin-top: 5px;
+    border: none;
+    background: none;
+    border-bottom: 2px solid white;
+    color: white;
+    font-size: 16px;
+    outline: none;
+}
+
+label {
+    text-align: left;
+    display: block;
+    font-size: 14px;
+}
+
+/* Adjusting the Gender Options */
+.gender-options {
+    display: flex;
+    align-items: center;
+    gap: 15px;  /* Adds space between options */
+    margin-top: 5px;
+}
+
+.gender-options input {
+    margin-right: 5px;
+    transform: scale(1.2);  /* Makes radio buttons slightly bigger */
+}
+
+
+/* Submit Button */
+.submit-btn {
+    background-color: #3b82f6;
+    color: white;
+    padding: 10px;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    font-size: 16px;
+    margin-top: 15px;
+    width: 100%;
+}
+
+.submit-btn:hover {
+    background-color: #2563eb;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    .register-box {
+        width: 100%;
+        padding: 20px;
+    }
+
+    .form-group {
+        flex-direction: column;
+    }
+
+    .input-box {
+        width: 100%;
+        margin-bottom: 10px;
+    }
+}

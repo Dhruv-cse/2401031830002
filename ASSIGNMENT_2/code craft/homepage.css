@@ -1,0 +1,92 @@
+/* Reset and global styles */
+body, h1, ul, li, a, button {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+body {
+    background-image:url(back.jpeg);
+}
+
+/* Navigation Bar */
+.navbar {
+    background-color: #1a2ec4;
+    color: white;
+    padding: 15px 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo {
+    font-size: 24px;
+    font-weight: bold;
+    font-family: "Georgia", serif;
+}
+
+.nav-links {
+    list-style: none;
+    display: flex;
+}
+
+.nav-links li {
+    margin: 0 15px;
+}
+
+.nav-links a {
+    text-decoration: none;
+    color: white;
+    font-size: 16px;
+}
+
+.nav-links a:hover {
+    text-decoration: underline;
+}
+
+.login-btn {
+    background-color: #222;
+    padding: 5px 10px;
+    border-radius: 5px;
+}
+
+/* Hero Section */
+.hero {
+    position: relative;
+    height: 400px;
+    background: url('background.jpg') no-repeat center center/cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.overlay {
+    background-color: rgba(0, 0, 0, 0.7);
+    padding: 40px;
+    border-radius: 10px;
+    color: white;
+    max-width: 80%;
+}
+
+.overlay h1 {
+    font-size: 26px;
+    font-family: "Courier New", monospace;
+}
+
+/* Register Button */
+.register-btn {
+    background-color: #3b82f6;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    font-size: 16px;
+    margin-top: 15px;
+}
+
+.register-btn:hover {
+    background-color: #2563eb;
+}

@@ -1,0 +1,115 @@
+/* General Styles */
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    background-color: #2D2D2D;
+    color: white;
+}
+
+/* Header */
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 20px;
+    background-color: #2222AA;
+}
+
+.logo {
+    font-size: 24px;
+    font-weight: bold;
+    font-family: "Cursive", sans-serif;
+    color: white;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    padding: 0;
+}
+
+nav ul li {
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+}
+
+.profile-icon img {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+}
+
+/* About Us Section */
+.container {
+    max-width: 900px;
+    margin: 30px auto;
+    text-align: center;
+}
+
+h2 {
+    font-size: 28px;
+    margin-bottom: 20px;
+}
+
+/* About Content */
+.about-content {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+/* Image Styling */
+.about-image img {
+    width: 250px;
+    border-radius: 10px;
+}
+
+/* Text Styling */
+.about-text {
+    max-width: 500px;
+    text-align: left;
+    font-size: 18px;
+    line-height: 1.6;
+}
+
+/* Footer */
+footer {
+    background-color: #2222AA;
+    text-align: center;
+    padding: 15px;
+    margin-top: 30px;
+}
+
+.social-icons img {
+    width: 25px;
+    margin: 0 10px;
+}
+/* Ensure the whole page takes full height */
+html, body {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+/* Main content should expand to push footer down */
+.container {
+    flex: 1;
+}
+
+/* Footer sticks to the bottom */
+footer {
+    background-color: #2222AA;
+    text-align: center;
+    padding: 15px;
+    margin-top: auto;
+}
+
+
