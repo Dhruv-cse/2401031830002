@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Dhruv Parmar Portfolio</title>
+
+  <script src="https://cdn.tailwindcss.com"></script>
+</head>
+
+<body class="bg-gray-950 text-white font-sans">
+
+  <!-- Navbar -->
+  <nav class="flex justify-between items-center px-8 py-5 bg-gray-900 shadow-md sticky top-0">
+    <h1 class="text-2xl font-bold text-yellow-400">Dhruv</h1>
+    <ul class="flex gap-6 text-sm">
+      <li><a href="#about" class="hover:text-yellow-400">About</a></li>
+      <li><a href="#skills" class="hover:text-yellow-400">Skills</a></li>
+      <li><a href="#projects" class="hover:text-yellow-400">Projects</a></li>
+      <li><a href="#services" class="hover:text-yellow-400">Services</a></li>
+      <li><a href="#contact" class="hover:text-yellow-400">Contact</a></li>
+    </ul>
+  </nav>
+
+  <!-- Hero (UPDATED - NO IMAGE) -->
+  <section class="min-h-screen flex flex-col justify-center items-center text-center px-6">
+    <h2 class="text-4xl md:text-6xl font-bold mb-4">
+      Hi, I'm <span class="text-yellow-400">Dhruv Parmar</span>
+    </h2>
+    <p class="text-gray-400 mb-6 text-lg max-w-xl">
+      A passionate Web Developer focused on building modern, responsive and user-friendly websites.
+    </p>
+
+    <div class="flex gap-4">
+      <a href="#projects" class="bg-yellow-400 text-black px-6 py-3 rounded-lg hover:scale-105 transition">
+        View Projects
+      </a>
+      <a href="#contact" class="border border-yellow-400 px-6 py-3 rounded-lg hover:bg-yellow-400 hover:text-black transition">
+        Contact Me
+      </a>
+    </div>
+  </section>
+
+  <!-- About -->
+  <section id="about" class="py-16 px-8 bg-gray-900">
+    <h2 class="text-3xl font-bold text-yellow-400 mb-6 text-center">About Me</h2>
+    <div class="max-w-3xl mx-auto text-center text-gray-400 leading-7">
+      <p>
+        I'm Dhruv Parmar, a dedicated web developer with a strong interest in creating clean and modern UI designs.
+        I enjoy turning ideas into real-world applications using HTML, Tailwind CSS, and JavaScript.
+      </p>
+      <br>
+      <p>
+        I have experience building projects like taxi booking platforms and e-commerce websites.
+        My goal is to continuously improve my skills and build impactful digital experiences.
+      </p>
+    </div>
+  </section>
+
+  <!-- Skills -->
+  <section id="skills" class="py-16 px-8 text-center">
+    <h2 class="text-3xl font-bold text-yellow-400 mb-8">Skills</h2>
+
+    <div class="grid md:grid-cols-3 gap-8 max-w-5xl mx-auto">
+      <div class="bg-gray-800 p-6 rounded-lg">
+        <h3 class="text-xl font-bold mb-3 text-yellow-400">Frontend</h3>
+        <p class="text-gray-400">HTML5, CSS3, Tailwind CSS, JavaScript</p>
+      </div>
+
+      <div class="bg-gray-800 p-6 rounded-lg">
+        <h3 class="text-xl font-bold mb-3 text-yellow-400">Tools</h3>
+        <p class="text-gray-400">GitHub, VS Code</p>
+      </div>
+
+      <div class="bg-gray-800 p-6 rounded-lg">
+        <h3 class="text-xl font-bold mb-3 text-yellow-400">Learning</h3>
+        <p class="text-gray-400">React JS, Backend Development</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Projects -->
+  <section id="projects" class="py-16 px-8 bg-gray-900 text-center">
+    <h2 class="text-3xl font-bold text-yellow-400 mb-8">Projects</h2>
+
+    <div class="grid md:grid-cols-2 gap-8 max-w-5xl mx-auto">
+      <div class="bg-gray-800 p-6 rounded-xl hover:scale-105 transition">
+        <h3 class="text-xl font-bold text-yellow-400 mb-2">Taxi Booking Site</h3>
+        <p class="text-gray-400 mb-4">
+          A complete taxi booking system with UI design, booking form, and responsive layout.
+        </p>
+      </div>
+
+      <div class="bg-gray-800 p-6 rounded-xl hover:scale-105 transition">
+        <h3 class="text-xl font-bold text-yellow-400 mb-2">E-commerce Website</h3>
+        <p class="text-gray-400 mb-4">
+          An online shopping platform with product pages and modern user interface.
+        </p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Services -->
+  <section id="services" class="py-16 px-8 text-center">
+    <h2 class="text-3xl font-bold text-yellow-400 mb-8">Services</h2>
+
+    <div class="grid md:grid-cols-3 gap-6 max-w-5xl mx-auto">
+      <div class="bg-gray-800 p-6 rounded-lg">
+        <h3 class="text-xl font-bold mb-2">Web Design</h3>
+        <p class="text-gray-400">Clean and modern website designs.</p>
+      </div>
+
+      <div class="bg-gray-800 p-6 rounded-lg">
+        <h3 class="text-xl font-bold mb-2">Frontend Development</h3>
+        <p class="text-gray-400">Responsive websites using modern tech.</p>
+      </div>
+
+      <div class="bg-gray-800 p-6 rounded-lg">
+        <h3 class="text-xl font-bold mb-2">UI/UX</h3>
+        <p class="text-gray-400">User-friendly and engaging interfaces.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Contact -->
+  <section id="contact" class="py-16 px-8 bg-gray-900 text-center">
+    <h2 class="text-3xl font-bold text-yellow-400 mb-6">Contact Me</h2>
+
+    <form class="max-w-xl mx-auto space-y-4">
+      <input type="text" placeholder="Your Name" class="w-full p-3 rounded bg-gray-800 border border-gray-700">
+      <input type="email" placeholder="Your Email" class="w-full p-3 rounded bg-gray-800 border border-gray-700">
+      <textarea placeholder="Your Message" class="w-full p-3 rounded bg-gray-800 border border-gray-700"></textarea>
+      <button class="bg-yellow-400 text-black px-6 py-3 rounded w-full">Send Message</button>
+    </form>
+
+    <p class="text-gray-400 mt-6">Email: dhruv@example.com</p>
+    <p class="text-gray-400">GitHub: github.com/yourusername</p>
+  </section>
+
+  <!-- Footer -->
+  <footer class="text-center py-6 bg-gray-900 border-t border-gray-800">
+    <p class="text-gray-500">© 2026 Dhruv Parmar. All rights reserved.</p>
+  </footer>
+
+</body>
+</html>
